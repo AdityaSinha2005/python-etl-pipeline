@@ -1,69 +1,73 @@
-# Python ETL Pipeline
+# Data Engineering Practice
 
-A simple ETL (Extract, Transform, Load) pipeline built using Python and Pandas.
+This repository contains my hands-on Data Engineering learning projects and practice exercises. The goal of this repository is to document my journey in learning data extraction, transformation, loading (ETL), web scraping, databases, and data processing using Python.
 
-## Features
+## Projects
 
-* Extract data from CSV, JSON, and XML files
-* Transform height and weight into standardized units
-* Merge data from multiple sources
-* Load transformed data into a target CSV file
+### 01_ETL_Pipeline
+
+A basic ETL pipeline built using Python and Pandas.
+
+**Features**
+
+* Extract data from multiple file formats
+* Transform and clean data
+* Standardize units and formats
 * Generate logs for ETL execution
+* Export transformed data
 
-## Tech Stack
+**Tech Stack**
 
 * Python
 * Pandas
-* CSV
-* JSON
-* XML
-* Git & GitHub
 
-## Project Structure
+---
+
+### 02_Web_Scraping_ETL
+
+A web scraping and ETL project that extracts movie ranking data from a webpage and stores it in structured formats.
+
+**Features**
+
+* Fetch webpage content using Requests
+* Parse HTML using BeautifulSoup
+* Extract and transform movie data
+* Store data in CSV format
+* Load data into SQLite database
+
+**Tech Stack**
+
+* Python
+* Requests
+* BeautifulSoup4
+* Pandas
+* SQLite3
+
+---
+
+## Repository Structure
 
 ```text
-.
-├── data/
-│   ├── source1.csv
-│   ├── source1.json
-│   ├── source1.xml
-│   └── ...
-├── etl_code.py
-├── transformed_data.csv
-├── log_file.txt
+Data-Engineering-Practice/
+│
+├── 01_ETL_Pipeline/
+│
+├── 02_Web_Scraping_ETL/
+│
 └── README.md
 ```
 
-## How to Run
+## Skills Practiced
 
-1. Clone the repository
+* Python Programming
+* Data Extraction
+* Data Transformation
+* Data Loading (ETL)
+* Web Scraping
+* Data Cleaning
+* Pandas
+* SQLite
+* Data Processing
 
-```bash
-git clone https://github.com/AdityaSinha2005/python-etl-pipeline.git
-```
 
-2. Install dependencies
-
-```bash
-pip install pandas
-```
-
-3. Run the ETL pipeline
-
-```bash
-python etl_code.py
-```
-
-## Learning Outcomes
-
-This project helped me understand:
-
-* ETL workflow
-* Data transformation using Pandas
-* Working with CSV, JSON, and XML data
-* Logging in Python
-* Version control using Git and GitHub
-
-```
-```
-vv
+This repository will be continuously updated as I progress through my Data Engineering learning journey.
